@@ -50,11 +50,11 @@ gem "bootsnap", require: false
 
 
 # added gems
-gem 'materialize-sass', '~> 1.0.0'
+gem "materialize-sass", git: "https://github.com/Joaquinb2000/materialize-sass-rails-7.git"
 gem 'sassc'
 
     # install this gem for offline icons
-gem 'material_icons'
+    gem 'material_icons'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
