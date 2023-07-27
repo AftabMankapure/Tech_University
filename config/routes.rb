@@ -4,8 +4,4 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get '/courses/new', to: 'courses#new'
   resources :students  ,except: [:destroy]
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
 end
